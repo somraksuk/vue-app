@@ -1,12 +1,16 @@
 <template>
-  <div>Hello world</div>
+  <div>About {{name}}
+
+  </div>
 </template>
 <script>
 export default {
-  data() {
-    return {
-      id: 1,
+  data(){
+    return{
+      name:'Somrak',
+      age:25,
     }
   },
 }
 </script>
+
